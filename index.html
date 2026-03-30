@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huntsville Botanical Garden Simulation</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="ui">
+    <div id="minimap-container">
+      <div id="minimap">
+        <div id="player-marker"></div>
+      </div>
+      <div id="coords">X: 0 Y: 0 Z: 0</div>
+      <div id="fly-speed" style="display: none; color: yellow; margin-top: 5px; font-family: monospace;">Speed: 400
+      </div>
+    </div>
+    <div id="instructions">
+      Click to Play<br />
+      WASD to Move<br />
+      Mouse to Look<br />
+      Press 'T' to Teleport
+    </div>
+    <div id="teleport-menu">
+      <h2>Teleport to Location</h2>
+      <!-- Items added by JS -->
+    </div>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
